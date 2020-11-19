@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MuscleTraining1120</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header class="header">
+    <img src="./images/Create_Your_Own_Logo_-_Online_Logo_Maker.png" alt="" class="logo">
+    <ul class="menu">
+      <li class="menu-item"><a href="#" class="menu-item-link">愛好会概要</a></li>
+      <li class="menu-item"><a href="#" class="menu-item-link">投稿一覧</a></li>
+      <li class="menu-item"><a href="https://div-inc.slack.com/archives/CHYFPGM8B" class="menu-item-link">公式Slack</a></li>
+      <li class="menu-item"><a href="/Users/tech-camp/projects/portforio/contact.html" class="menu-item-link">お問い合わせ</a></li>
+      <li class="menu-item"><a href="#" class="menu-item-link menu-item-link-btn">成果報告</a></li>
+    </ul>
+  </header>
+    <%= yield %>
+    <footer class="footer">
+      <p class="copyright">Copyright © 2020 div Inc.Muscle Training CLUB All rights reserved.</p>
+    </footer>
+  </body>
+</html>
