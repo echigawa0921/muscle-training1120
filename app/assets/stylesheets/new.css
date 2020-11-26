@@ -851,17 +851,4 @@ a:focus {
     width: 10%;
   }
   
-  .search-form {
-    text-align: center;
-    padding-top: 32px;
-  }
-  
-  .search-form .search-input {
-    width: 30%;
-    margin-right: 10px;
-  }
-  
-  .search-form .search-btn {
-    width: 10%;
-  }
   
