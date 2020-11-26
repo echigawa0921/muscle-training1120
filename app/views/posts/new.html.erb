@@ -3,8 +3,8 @@
     <h3>今日も追い込んだ筋肉にご褒美を</h3>
     <%= form_with(model: @post, local: true) do |form| %>
       <%= form.text_field :name, placeholder: "あなたの名前を入力してください。" %>
-      <%= form.text_field :image, placeholder: "Image Url" %>
-      <%= form.text_area :text, placeholder: "text", rows: "10" %>
+      <%= form.text_field :category_id, placeholder: "どこを鍛えた？" %>
+      <%= form.text_area :message, placeholder: "text", rows: "10" %>
       <%= form.submit "SEND" %>
     <% end %>
   </div>
