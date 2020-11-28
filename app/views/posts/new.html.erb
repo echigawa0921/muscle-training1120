@@ -1,11 +1,23 @@
-<div class="contents row">
-  <div class="container">
-    <h3>今日も追い込んだ筋肉にご褒美を</h3>
-    <%= form_with(model: @post, local: true) do |form| %>
-      <%= form.text_field :name, placeholder: "あなたの名前を入力してください。" %>
-      <%= form.text_field :category_id, placeholder: "どこを鍛えた？" %>
-      <%= form.text_area :message, placeholder: "text", rows: "10" %>
-      <%= form.submit "SEND" %>
-    <% end %>
-  </div>
+<body>
+<div class="top-gaiyou">
+  <div class="gaiyou-name">成果報告</div>
 </div>
+  <div class="contents row">
+    <div class="container">
+      <h3>今日も追い込んだ筋肉にご褒美を</h3>
+      <%= form_with(model: @post, local: true) do |form| %>
+        <div class="front-text">名前</div>
+        <%= form.text_field :name, placeholder: "あなたの名前を入力してください。" %>
+        <div class="front-text">鍛錬部位</div>
+        <%= form.text_field :category_id, placeholder: "どこを鍛えた？" %>
+        <div class="front-text">一言コメント</div>
+        <%= form.text_area :message, placeholder: "一言メッセージ", rows: "2" %>
+        <div class="front-text">画像</div>
+        <input type="file" id="example" multiple>
+        <div id="preview"></div>
+
+        <%= form.submit "SEND" %>
+      <% end %>
+    </div>
+  </div>
+</body>
