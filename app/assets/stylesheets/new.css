@@ -559,8 +559,7 @@ a:focus {
   html {
     height: 100%;
     background-color: black;
-    background-image: url(images/BO151030535008_TP_V.jpg);
-    backdrop-filter: saturate(80%);
+
   }
   
   body {
