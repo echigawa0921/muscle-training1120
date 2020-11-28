@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   root to: 'posts#index'
     resources :posts do
   end
-  get 'posts', to: 'contact#index'
+  get 'contact', to: 'contact#index'
 end

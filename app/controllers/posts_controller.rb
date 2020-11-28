@@ -3,8 +3,7 @@ class PostsController < ApplicationController
       @posts = Post.all
     end
 
-    def contact
-      @posts = Post
+    def contact index
     end
     
     def new
