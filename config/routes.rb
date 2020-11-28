@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root to: 'posts#index'
     resources :posts do
   end
-  get 'contact', to: 'contact#index'
+  resources :contact do
+  end
 end

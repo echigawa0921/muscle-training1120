@@ -7,7 +7,7 @@
   }
   .top-gaiyou{
     width: auto;
-    padding-top: 130px;
+    padding-top: 145px;
     font-size: 40px;
     text-align: center;
     border-bottom: 3px  gray;
@@ -37,16 +37,19 @@
   
   body {
     line-height: 1.57;
-    letter-spacing: 0.10em;
+    letter-spacing: 0.12em;
     font-size: 19px;
     font-weight: bold;
     color: black;
     background-color: #F2F2F2;
   }
+  .front-text{
+    padding-left: 100px;
+  }
   form input,
   form textarea {
-    width: 100%;
-    margin: 5px 0px 10px;
+    width: 70%;
+    margin: 8px 90px 15px;
     padding: 10px;
     border: 1px solid #D8D8D8;
     border-radius: 10px;
@@ -76,15 +79,23 @@
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+  .pampu{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-left: 120px;  
+  }
   
   .container h3 {
-    margin: 0 0 20px;
+    width: 450px;
+    margin: 15px 0px 25px;
     text-align: center;
     font-weight: normal;
     font-size: 25px;
     color: black;
     border-bottom: 1px solid gray;
-    margin-bottom: 50px;
+    margin-bottom: 54px;
   }
   
   footer {
