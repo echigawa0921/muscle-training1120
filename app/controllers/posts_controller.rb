@@ -7,4 +7,8 @@ class PostsController < ApplicationController
         @post = Post.new
     end
 
+    def index2
+      @posts = Post.all
+    end
+
 end
