@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   end
   resources :contact do
   end
+
+  get '/posts' => 'index2#index'
+
 end
