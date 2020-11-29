@@ -1,34 +1,83 @@
-  .hedde-contents{
-    height: 900px;
+.contenter{
+    background: url(images/strong-man-training-gym.jpg) fixed;
+    background-position: center;
+}
+.hedde-contents{
+    height: 850px;
     width: auto;
     padding-top: 145px;
-    margin: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: rgba(51, 51, 51, 0.9);
+
   }
   .hedde-name{
     font-size: 60px;
     text-align: center;
     color: #fff;
     border-bottom: 3px solid #fff;
-    width: 600px;
+    width: 700px;
     font-weight: bold;
     margin: 40px auto;
     margin-bottom: 50px;
+    
   }
   .title-messages{
-    width: 50vw;
-    margin-left: 150px;
+    width: 80vw;
+    padding-left: 200px;
     color: #fff;
   }
-  
+  .daihyou-name-contact{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 300px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin: auto;
+}
+  .top-gaiyou2{
+      display: flex;
+      width: auto;
+      font-size: 40px;
+      text-align: center;
+      border-bottom: 3px  gray;
+      align-items: flex-start;
+      padding-top: 70px;
+  }
+  .kobayashi-btn-icon{
+    border-radius: 120px;
+  }
+  .daihyou-message{
+    height: 420px;
+    width: 100vh;
+}
+.image-daihyou{
+  height: 420px;
+  width: 100vh;
+}
+.profile{
+
+}
+.profile-sub{
+    display: flex;
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
   .message-date2{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     list-style: none;
-    padding-right: 40px;
+  }
+  .sub-message2{
+    font-size: 30px;
+    color: #fff;
+    list-style: none;
+    padding-left: 60px;
+    padding-top: 50px;
   }
 
 .contact{
