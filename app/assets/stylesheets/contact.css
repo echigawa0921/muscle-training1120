@@ -1,3 +1,36 @@
+  .hedde-contents{
+    height: 900px;
+    width: auto;
+    padding-top: 145px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  .hedde-name{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    width: 600px;
+    font-weight: bold;
+    margin: 40px auto;
+    margin-bottom: 50px;
+  }
+  .title-messages{
+    width: 50vw;
+    margin-left: 150px;
+    color: #fff;
+  }
+  
+  .message-date2{
+    font-size: 60px;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 40px;
+  }
+
 .contact{
     width: auto;
     margin: 20px 400px 10px;
