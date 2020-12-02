@@ -23,4 +23,13 @@ class PostsController < ApplicationController
     def fukkin
       @posts = Post.all
     end
+
+    def create
+      Post.create(post_params)
+    end
+  
+    private
+    def post_params
+      params.require(:post).permit(:name, :category_id, :message)
+    end
 end
