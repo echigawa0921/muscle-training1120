@@ -1,0 +1,21 @@
+.update-top-gaiyou{
+    width: auto;
+    padding-top: 145px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px  gray;
+    color: black;
+  }
+  .update-gaiyou-name{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 600px;
+    font-weight: bold;
+    margin: auto;
+  }
+  a{
+    text-decoration:none;
+  }
