@@ -15,7 +15,7 @@
         <div class="front-text">一言コメント</div>
         <%= f.text_area :message, placeholder: "一言メッセージ", rows: "2" %>
         <div class="front-text">画像</div>
-        <input type="file" id="example" multiple>
+        <%= f.file_field :image, id:"post-image" %>
         <div id="preview"></div>
 
         <%= f.submit "SEND" %>
