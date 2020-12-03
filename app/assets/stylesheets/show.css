@@ -29,7 +29,7 @@
     margin-bottom: 16px;
     object-fit: cover;
     width: 1000px;
-    height: 700px;
+    height: 600px;
    }
    .show-card__img {
     padding-left: 200px;
@@ -39,9 +39,9 @@
     height: 350px;
    }
    .show-card__body{
-       width: 600px;
-       height: 400px;
-       margin-left: 200px;
+      width: 600px;
+      height: 00px;
+      margin-left: 200px;
    }
    .show-card__title {
     font-size: 24px;
@@ -49,4 +49,24 @@
    }
    .show-card__summary {
     font-size: 18px;
+   }
+   .show-li{
+    margin-top: 100px;
+    margin-left: 100px;
+   }
+   .edit-link-btn{
+    color: #fff;
+    background-color: #ef2728;
+    border-radius: 24px;
+    padding-top: 50px;
+    padding: 15px 33px;
+    font-size: 25px;
+   }
+   .delete-link-btn{
+    color: #fff;
+    background-color: gray;
+    border-radius: 24px;
+    padding: 15px 33px;
+    font-size: 25px;
+    margin-left: 50px;
    }
