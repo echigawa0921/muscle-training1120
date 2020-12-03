@@ -11,9 +11,10 @@
               <p class="show-card__summary">
               <p>一言：<%= @post.message %></p>
               </p>
-              <%= link_to '商品の編集', edit_post_path(@post), method: :get, class: "item-red-btn" %>
-              <%= link_to '削除', post_path(@post), method: :delete, class:'item-destroy' %>
-
+              <li class="show-li">
+              <%= link_to '投稿の編集', edit_post_path(@post), method: :get, class: "edit-link-btn" %>
+              <%= link_to '削除', post_path(@post), method: :delete, class:'delete-link-btn' %>
+              </li>
             </div>
         </div>
       </div>

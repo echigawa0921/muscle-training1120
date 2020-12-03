@@ -1,0 +1,36 @@
+.arm-page-heading{
+    font-size: 30px;
+    margin-bottom: 28px;
+    margin-left: 200px;
+}
+.arm-inner{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+
+}
+.arm-card__wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% - 50px) / 3);
+    display: flexbox;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+}
+.arm-card__img {
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 700px;
+    height: 200px;
+   }
+.arm-card{
+    text-decoration: none;
+}
+.Editlink{
+    text-decoration: none;
+    color: #38aef0 ;
+}
