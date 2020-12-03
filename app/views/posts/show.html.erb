@@ -1,0 +1,20 @@
+<div class="show-top-gaiyou">
+  <div class="show-gaiyou-name">Pick up</div>
+</div>
+    <main class="show-main">
+      <div class="inner">
+        <div class="card__wrapper">
+          <div class="show-card">
+          <%= image_tag @post.image, class: "show-card__img" if @post.image.attached? %>
+            <div class="show-card__body">
+              <h2 class="show-card__title">投稿者：<%= @post.name %></h2>
+              <p class="show-card__summary">
+              <p>一言：<%= @post.message %></p>
+              </p>
+              <%= link_to '商品の編集', edit_post_path(@post), method: :get, class: "item-red-btn" %>
+              <%= link_to '削除', post_path(@post), method: :delete, class:'item-destroy' %>
+
+            </div>
+        </div>
+      </div>
+ </main>

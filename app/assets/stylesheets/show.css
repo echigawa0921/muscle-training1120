@@ -1,0 +1,52 @@
+.show-top-gaiyou{
+    width: auto;
+    padding-top: 145px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px  gray;
+  }
+  .show-gaiyou-name{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 200px;
+    font-weight: bold;
+    margin: auto;
+  }
+.inner {
+    padding-top: 50px;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+   }
+   .card__title{
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+   }
+   .show-card {
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 1000px;
+    height: 700px;
+   }
+   .show-card__img {
+    padding-left: 200px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 780px;
+    height: 350px;
+   }
+   .show-card__body{
+       width: 600px;
+       height: 400px;
+       margin-left: 200px;
+   }
+   .show-card__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+   }
+   .show-card__summary {
+    font-size: 18px;
+   }

@@ -5,9 +5,10 @@
       <div class="inner">
         <h1 class="page-heading">【腕投稿一覧】</h1>
         <% @posts.each do |post| %>
+        <%= link_to post_path(post.id), method: :get do %>
         <div class="card__wrapper">
           <div class="card">
-           <%= image_tag "images/足.webp", class:"card__img" %>
+          <%= image_tag post.image, class: "card__img" if post.image.attached? %>
             <div class="card__body">
               <h2 class="card__title">投稿者：<%= post.name %></h2>
               <p class="card__summary">
@@ -17,6 +18,6 @@
           </div>
           <% end %>
         </div>
-        </div>
+        <% end %>
+      </div>
      </main>
-

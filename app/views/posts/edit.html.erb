@@ -7,7 +7,7 @@
     <div class="pampu">
       <h3>パンプした筋肉にご褒美を</h3>
     </div>
-      <%= form_with model: @post, url:posts_path,local: true do |f| %>
+      <%= form_with model: @post, local: true do |f| %>
         <div class="front-text">名前</div>
         <%= f.text_field :name, placeholder: "あなたの名前を入力してください。" %>
         <div class="front-text">鍛錬部位</div>
