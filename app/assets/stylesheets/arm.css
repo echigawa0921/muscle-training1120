@@ -1,3 +1,20 @@
+.arm-top-gaiyou{
+    width: auto;
+    padding-top: 145px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px  gray;
+  }
+  .arm-gaiyou-name{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 400px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 50px;
+  }
 .arm-page-heading{
     font-size: 30px;
     margin-bottom: 28px;
