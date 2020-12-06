@@ -5,13 +5,14 @@
     <h1 class="arm-page-heading">【腹筋一覧】</h1>
       <div class="arm-inner">
         <% @posts.each do |post| %>
-        <%= link_to post_path(post.id), method: :get do %>
+          <%= link_to post_path(post.id),  :style=>"color:black;",method: :get do %>
         <div class="arm-card__wrapper">
           <div class="arm-card">
           <%= image_tag post.image, class: "arm-card__img" if post.image.attached? %>
             <div class="card__body">
               <h2 class="card__title">投稿者：<%= post.name %></h2>
               <p class="card__summary">
+              <p>鍛えた部位：<%= post.category.name %></p>
               <p>一言：<%= post.message %></p>
               </p>
             </div>

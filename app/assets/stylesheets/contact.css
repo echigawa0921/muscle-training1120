@@ -37,22 +37,36 @@
     font-weight: bold;
     padding-top: 50px;
     margin: auto;
+    margin-bottom: 40px;
 }
   .top-gaiyou2{
       display: flex;
       width: auto;
+      margin-top: 50px;
       font-size: 40px;
       text-align: center;
       border-bottom: 3px  gray;
       align-items: flex-start;
       padding-top: 70px;
+      background-color: white;
+      width: 100vw;
+      height: 600px;
+      margin: auto;
   }
   .kobayashi-btn-icon{
     border-radius: 120px;
   }
   .daihyou-message{
     height: 420px;
-    width: 100vh;
+    width: 500px;
+}
+.kobayashi{
+  font-size: 35px;
+}
+.yokuwakaran{
+  padding-top: 50px;
+ font-size: 20px;
+ text-align: left;
 }
 .image-daihyou{
   height: 420px;
@@ -121,4 +135,3 @@
       font-weight: 100;
 
   }
-  

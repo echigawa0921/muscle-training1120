@@ -9,6 +9,8 @@
     display: flex;
     background-color: white;
     flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
 
 }
 .arm-card__wrapper {
@@ -20,6 +22,8 @@
     margin-bottom: 40px;
     margin-left: 10px;
     border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 .arm-card__img {
     margin-bottom: 16px;
