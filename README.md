@@ -9,8 +9,8 @@
  部活内活動の活発化
  
 # トップページ
- 
-![Uploading MuscleTraining1120.png…]()
+
+ <img width="1438" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281574-1010c280-3813-11eb-9e73-4966389af32f.png">
  
 # Requirement
  
