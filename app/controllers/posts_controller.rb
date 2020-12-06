@@ -13,7 +13,7 @@ class PostsController < ApplicationController
     end
 
     def arm
-      @posts = Post.all
+      @posts = Post..where(category_id = 2)
     end
 
     def leg
