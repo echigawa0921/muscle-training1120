@@ -1,8 +1,7 @@
-<div class="top-gaiyou">
-  <div class="gaiyou-name">報告一覧</div>
+<div class="arm-top-gaiyou">
+  <div class="arm-gaiyou-name">腕報告一覧</div>
 </div>
     <main class="main">
-    <h1 class="arm-page-heading">【腕筋投稿一覧】</h1>
       <div class="arm-inner">
         <% @posts.each do |post| %>
           <%= link_to post_path(post.id),  :style=>"color:black;",method: :get do %>
