@@ -10,7 +10,7 @@
  
 # トップページ
  
-"hoge"のセールスポイントや差別化などを説明する
+![Uploading MuscleTraining1120.png…]()
  
 # Requirement
  
