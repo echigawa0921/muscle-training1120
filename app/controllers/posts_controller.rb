@@ -13,15 +13,15 @@ class PostsController < ApplicationController
     end
 
     def arm
-      @posts = Post..where(category_id = 2)
+      @posts = Post.where(category_id: 2)
     end
 
     def leg
-      @posts = Post.all
+      @posts = Post.where(category_id: 3)
     end
 
     def fukkin
-      @posts = Post.all
+      @posts = Post.where(category_id: 4)
     end
 
     def create

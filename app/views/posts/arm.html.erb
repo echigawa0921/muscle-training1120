@@ -3,7 +3,7 @@
 </div>
     <main class="main">
       <div class="arm-inner">
-        <% @posts.each do |post| %>
+      <% @posts.each do |post| %>
           <%= link_to post_path(post.id),  :style=>"color:black;",method: :get do %>
         <div class="arm-card__wrapper">
           <div class="arm-card">
