@@ -16,6 +16,7 @@
 # こだわりポイント①
  
 鍛えた部位ごとのビューファイル表示
+whereメソッドを使って条件式に合うビューファイルのみの表示
 <img width="1439" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281785-8cf06c00-3814-11eb-8115-62c8a49efb7c.png">  
  
 # こだわりポイント②
@@ -28,16 +29,7 @@
  
 筋トレ愛好会の皆さんの「投稿」の障壁を少しでも下げるためにあえて  
 「user」のログイン機能はつけていません。
-  
-# Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
 # Author
  
 作成情報
