@@ -1,4 +1,4 @@
-.contenter{
+/* .contenter{
     background: url(images/strong-man-training-gym.jpg) fixed;
     background-position: center;
 }
@@ -70,11 +70,7 @@
 }
 .image-daihyou{
   height: 420px;
-  width: 100vh;
-}
-.profile{
-
-}
+  width: 100vh;}
 .profile-sub{
     display: flex;
     padding: 20px;
@@ -134,4 +130,4 @@
       width: 500px;
       font-weight: 100;
 
-  }
+  } */
