@@ -1,6 +1,7 @@
 .contenter{
     background: url(images/strong-man-training-gym.jpg) fixed;
     background-position: center;
+    width: 100vw;
 }
 .hedde-contents{
     height: 850px;
@@ -41,18 +42,16 @@
 }
   .top-gaiyou2{
       display: flex;
-      width: auto;
       margin-top: 50px;
-      font-size: 40px;
+      font-size: 10px;
       text-align: center;
       border-bottom: 3px  gray;
       align-items: flex-start;
       padding-top: 70px;
       background-color: white;
       width: 100vw;
-      height: 600px;
-      margin: auto;
-  }
+      height: 600px;}
+      
   .kobayashi-btn-icon{
     border-radius: 120px;
   }
