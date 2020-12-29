@@ -7,6 +7,17 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application' %>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+       const hum = $('#hamburger, .close')
+       const nav = $('.sp-nav')
+       hum.on('click', function(){
+          nav.toggleClass('toggle');
+       });
+    });
+    </script>
   </head>
 
   <body>
@@ -21,6 +32,20 @@
         <a class="menu-item-link menu-item-link-btn" href="/posts/new">成果報告</a>
       </li>
     </ul>
+
+    <nav class="sp-nav">
+      <ul>
+        <li><a href="/contact/:id">愛好会概要</a></li>
+        <li><a href="/posts/list">投稿一覧</a></li>
+        <li><a href="https://div-inc.slack.com/archives/CHYFPGM8B">公式Slack</a></li>
+        <li><a href="/contact" class="menu-item-link">お問い合わせ</a></li>
+        <li><a href="/posts/new">成果報告</a></li>
+        <li class="close"><span>閉じる</span></li>
+     </ul>
+    </nav>
+    <div id="hamburger">
+     <span></span>
+    </div>
   </header>
     <%= yield %>
     <footer class="footer">
