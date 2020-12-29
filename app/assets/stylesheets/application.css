@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ .sp-nav {
+    display: none;
+ }
 
  @media screen and (max-width: 640px) {
     .menu {
@@ -21,14 +24,6 @@
     .logo {
         width: 140px;
         margin: 0px;
-    }
-    .header {
-        position: fixed;
-        width: 100vw;
-        background-color: white;
-        display: flex;
-        margin-left: 0px;
-        padding-left: 20px;
     }
     .sp-nav {
         z-index: 1;
@@ -376,4 +371,74 @@
         width: 200px;
         font-size: 15px;
     }
+    .arm-page-heading{
+        font-size: 30px;
+        margin-bottom: 28px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .arm-inner{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .arm-card__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .pampu{
+        font-size: 10px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        margin-left: 0px;
+        padding-left: 0px;  
+      }
+      .container h3 {
+        width: 300px;
+        margin: 15px 0px 25px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 25px;
+        color: black;
+        border-bottom: 1px solid gray;
+        margin-bottom: 54px;
+      }
+      .front-text{
+        padding-left: 10px;
+      }
+      .category-select{
+        width: 90%;
+        margin: 8px 10px 15px;
+        padding: 10px;
+        border: 1px solid #D8D8D8;
+        border-radius: 10px;
+        font-family: "游ゴシック", "YuGothic";
+      }
+      form input,
+  form textarea {
+    width: 90%;
+    margin: 8px 10px 15px;
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    font-family: "游ゴシック", "YuGothic";
+  }
+  
+  form input[type="submit"] {
+    background-color: #CC0000;
+    border-radius: 20px;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+  }
   }
