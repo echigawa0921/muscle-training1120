@@ -147,6 +147,9 @@
      }
      .first-view {
         background: url(images/BO151030535008_TP_V.jpg) fixed;
+        width:100%;
+        max-width: 100%;
+        height: auto;
         background-size: cover;
         background-position: center;
         height: 600px;
