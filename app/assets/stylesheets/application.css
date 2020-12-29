@@ -13,3 +13,367 @@
  *= require_tree .
  *= require_self
  */
+
+ @media screen and (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 140px;
+        margin: 0px;
+    }
+    .header {
+        position: fixed;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    .sp-nav {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 30px;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: all .2s ease-in-out;
+     }
+     #hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        padding-right: 10px;
+        height: 25px;
+        margin: 0 0 0 auto;
+     }
+     #hamburger span {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+        transform: translateY(-50%);
+     }
+     #hamburger::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+     }
+     #hamburger::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70%;
+        padding-right: 10px;
+        height: 2px;
+        background-color: black;
+     }
+
+     .sp-nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     }
+     .sp-nav li {
+        margin: 0;
+        padding: 0;
+     }
+     .sp-nav li span {
+        font-size: 15px;
+        color: #fff;
+     }
+     .sp-nav li a, .sp-nav li span {
+        display: block;
+        padding: 20px 0;
+        text-decoration: none;
+        color: white;
+     }
+     a:hover {
+        color: gray;
+      }
+
+     .sp-nav .close {
+        position: relative;
+        padding-left: 20px;
+     }
+     .sp-nav .close::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #fff;
+        transform: rotate( 45deg );
+     }
+     .sp-nav .close::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #fff;
+        transform: rotate( -45deg );
+     }
+     .toggle {
+        transform: translateY( 0 );
+        opacity: 1;
+     }
+     .main-visual {
+        padding: 0 4%;
+     }
+     h2 {
+        line-height: 1.6;
+        text-align: center;
+     }
+     .first-view {
+        background: url(images/BO151030535008_TP_V.jpg) fixed;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+      }
+     .first-view-textarea {
+        padding: 170px 20px;
+      }
+      .catchcopy {
+        color: #fff;
+        font-size: 45px;
+        line-height: 1.2;
+        letter-spacing: -3.2px;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        margin-bottom: 15px;
+      }
+      .upper-contents{
+        height: 620px;
+        width: auto;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;  
+      }
+      .heading-name{
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        border-bottom: 3px solid #fff;
+        width: 370px;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
+      .messages{
+        width: 100vw;
+        color: #fff;
+        margin-left: 55px;
+      }
+      
+      .message-date{
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: bold;
+        list-style: none;
+      }
+      .sub-message{
+        margin-top: 17px;
+        font-size: 20px;
+        color: #fff;
+        list-style: none;
+        margin-left: 45px;
+      }
+      .service-btn-about{
+        display: inline-block;
+        font-size: 25px;
+        color: gray;
+        
+        background-color: #fff;
+        border-radius: 22px;
+      }
+      .service-cardarea {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .service-card {
+        width: 100%;
+      }
+      .biglogo{
+        color: #fff;
+        font-size: 50px;
+        padding-top: 40px;
+        font-weight: bold;
+     }
+     .small-logo{
+       color: #fff;
+       font-size: 22px;
+       padding-bottom: 55px;
+     }
+     .contact-message{
+         margin-left: 12px;
+         margin-right: 10px;
+         margin-bottom: 0px;
+         font-size: 15px;
+         color: #fff;
+         list-style: none;
+         align-items: center;
+     }
+     .service-btn-about{
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 900;
+        color: gray;
+        background-color: #fff;
+        border-radius: 22px;
+      }
+      .upper-contents2{
+        height: 720px;
+        width: auto;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;  
+      }
+      .google-contents{
+        height: 520px;
+        width: 700;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F2F2F2;
+      }
+      .sub-google-message{
+        font-size: 10px;
+        color:	#444444;
+        margin-left: 0px;
+        padding-left: 10px;
+      }
+
+      .hedde-name{
+        font-size: 33px;
+        text-align: center;
+        color: #fff;
+        border-bottom: 3px solid #fff;
+        width: 320px;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
+    .message-date2{
+      padding-left: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      width: 100vw;
+      color: white;
+    }
+    .title-messages{
+        margin-left: 0px;
+        color: #fff;
+      }
+      .daihyou-name-contact{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        border-bottom: 3px solid black;
+        width: 300px;
+        font-weight: bold;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .sub-message2{
+        font-size: 25px;
+        color: #fff;
+        list-style: none;
+        padding-left: 60px;
+        padding-top: 50px;
+        margin-bottom: 10px;
+      }
+      .hedde-contents{
+        height: 650px;
+        width: auto;
+        padding-top: 145px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(51, 51, 51, 0.9);
+      }
+      .services-section-bar {
+        font-size: 25px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 3.2px;
+        background-color: #323232;
+        padding: 25px 0;
+      }
+      .top-gaiyou2{
+        display: block;
+        height: 800px;
+    }
+    .kobayashi-btn-icon{
+        border-radius: 120px;
+        height: 380px;
+    }
+    .image-daihyou{
+        height: 390px;
+        width: 95vw;
+      }
+    .yokuwakaran{
+       font-size: 15px;
+       text-align: left;
+       padding-left: 15px;
+    }
+    .kobayashi{
+        padding-right: 120px;
+    }
+    .oogaiyou{
+        padding-top: 70px;
+        padding-bottom: 100px;
+        width: 100vw;
+        padding-left: 50px;
+        margin: 0px 0px 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .gaiyou{
+        padding-left: 0px;
+        display: flex;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    th{
+      text-align: center;
+      padding-right: 30px;
+      border-bottom: 3px solid gray;
+    }
+    td{
+        white-space: nowrap;
+        border-bottom: 1px solid gray;
+        width: 200px;
+        font-size: 15px;
+    }
+  }

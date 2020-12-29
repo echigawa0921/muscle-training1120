@@ -73,9 +73,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: black;
-
-  
+    background-color: black;  
   }
   .heading-name{
     font-size: 60px;
@@ -175,7 +173,15 @@
     border-radius: 22px;
   }
   
-  
+  .upper-contents2{
+    height: 720px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;  
+  }
   .biglogo{
      color: #fff;
      font-size: 60px;
@@ -203,7 +209,6 @@
     align-items: center;
     flex-direction: column;
     background-color: #F2F2F2;
-  
   }
   .google-message{
     font-size: 40px;
