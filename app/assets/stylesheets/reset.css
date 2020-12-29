@@ -1,28 +1,22 @@
 * {
     box-sizing: border-box;
-  }
+}
   
-  html, body,
-  ul, ol, li,
-  h1, h2, h3, p,
-  div {
-    margin: 0;
-    padding: 0;
-  }
+html, body,
+ul, ol, li,
+h1, h2, h3, p,
+div {
+  margin: 0;
+  padding: 0;
+}
   
-  body {
-    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  }
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
   
-  li {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    vertical-align: bottom;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;}
