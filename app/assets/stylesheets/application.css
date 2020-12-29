@@ -146,11 +146,11 @@
         text-align: center;
      }
      .first-view {
-        width: auto;
+        background: url(images/BO151030535008_TP_V.jpg);
+        max-width: 100%;
         height: auto;
         background-position: center;
         background-color:black;
-        height: 600px;
       }
      .first-view-textarea {
         padding: 170px 20px;
