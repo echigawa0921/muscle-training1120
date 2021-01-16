@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  before_action :move_to_index, except: [:index, :show]
 
     def index
       @posts = Post.all
@@ -9,7 +10,7 @@ class PostsController < ApplicationController
     end
 
     def list
-      @posts = Post.all
+      @posts = Post.all.includes(:user).order("created_at DESC")
     end
 
     def arm
@@ -22,6 +23,7 @@ class PostsController < ApplicationController
 
     def fukkin
       @posts = Post.where(category_id: 4)
+
     end
 
     def create
@@ -35,6 +37,8 @@ class PostsController < ApplicationController
 
     def show
       @post = Post.find(params[:id])
+      @nickname = current_user.nickname
+      @posts = current_user.posts
     end
 
     def edit
@@ -54,6 +58,12 @@ class PostsController < ApplicationController
   
     private
     def post_params
-      params.require(:post).permit(:name, :category_id, :message, :image)
+      params.require(:post).permit(:category_id, :message, :image).merge(user_id: current_user.id)
+    end
+
+    def move_to_index
+      unless user_signed_in?
+        redirect_to  '/users/sign_in'
+      end
     end
 end

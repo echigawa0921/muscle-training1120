@@ -9,8 +9,7 @@
       <h3>パンプアップポイント</h3>
     </div>
       <%= form_with model: @post, url:posts_path,local: true do |f| %>
-        <div class="front-text">名前</div>
-        <%= f.text_field :name, placeholder: "あなたの名前を入力してください。" %>
+        
         <div class="front-text">鍛錬部位</div>
         <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"category-select"}) %>
         <div class="front-text">一言コメント</div>

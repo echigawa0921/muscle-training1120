@@ -46,6 +46,8 @@
    .show-card__title {
     font-size: 24px;
     margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
    }
    .show-card__summary {
     font-size: 18px;
