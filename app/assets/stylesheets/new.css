@@ -46,6 +46,9 @@
   .front-text{
     padding-left: 100px;
   }
+  .image-list{
+    width: 500px;
+  }
   form input,
   form textarea {
     width: 70%;
@@ -57,7 +60,7 @@
   }
   
   form input[type="submit"] {
-    background-color: #CC0000;
+    background-color: gray;
     border-radius: 20px;
     color: #fff;
     border: 0;

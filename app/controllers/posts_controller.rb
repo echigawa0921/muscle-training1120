@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :move_to_index, except: [:index, :show]
+  before_action :move_to_index, except: [:index, :show, :search]
 
     def index
       @posts = Post.all
@@ -39,6 +39,12 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
       @nickname = current_user.nickname
       @posts = current_user.posts
+      @comment = Comment.new
+      @comments = @post.comments.includes(:user)
+    end
+
+    def search
+      @post = Post.search(params[:keyword])
     end
 
     def edit

@@ -2,6 +2,7 @@
 <div class="show-top-gaiyou">
   <div class="show-gaiyou-name">Pick up</div>
 </div>
+
     <main class="show-main">
       <div class="inner">
         <div class="card__wrapper">
@@ -21,5 +22,25 @@
               </li>
             </div>
         </div>
+      </div>
+      <% if user_signed_in? %>
+       <div class="comment-form">
+        <%= form_with(model: [@post, @comment], local: true) do |form| %>
+          <%= form.text_area :text, placeholder: "コメントする", rows: "2" %>
+          <%= form.submit "SEND" %>
+
+        <% end %>
+        </div>
+      <% else %>
+        <strong><p>※※※ コメントの投稿には会員登録/ログインが必要です ※※※</p></strong>
+      <% end %>
+      <div class="comments">
+      <h4>＜コメント一覧＞</h4>
+       <% @comments.reverse_each do |comment| %>
+          <p>
+            <strong><%= link_to comment.user.nickname, "/users/#{comment.user_id}" ,class:'font-black' %>：</strong>
+            <%= comment.text %>
+          </p>
+        <% end %>
       </div>
  </main>

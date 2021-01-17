@@ -6,10 +6,17 @@ Rails.application.routes.draw do
   get "/posts/fukkin"
   get "/posts/list"
   root to: 'posts#index'
-    resources :posts do
-    end
+
+  get "/posts/show"
+
   resources :contact do
   end
   resources :users, only: :show
-
+  resources :posts do
+    resources :comments, only: [:create]
+      collection do
+        get 'search'
+      end
+    end
 end
+
