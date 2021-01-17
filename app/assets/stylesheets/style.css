@@ -351,3 +351,33 @@ header.header .user_nav2 ul li a {
   font-weight: bold;
   margin: auto;
 }
+
+.search-form{
+  display: flex;
+  width: 1300px;
+  height: 75px;
+  margin-top: 50px;
+}
+.search-input{
+  margin-left: 200px;
+  margin-right: 30px;
+}
+.search-btn{
+  background-color: gray;
+  width: 300px;
+  margin-left: 0px;
+}
+
+.comment-form{
+  margin-left: 100px;
+}
+
+.comments{
+  margin-left: 200px;
+  margin-bottom: 100px;
+  color: #000000;
+  text-decoration: none;
+}
+.font-black{
+  color: black;
+}
