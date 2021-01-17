@@ -16,7 +16,7 @@
       <div class="front-text">
         <%= f.label :パスワード %>
         <% if @minimum_password_length %>
-          <em>(<%= @minimum_password_length %> 6文字以上で入力してください)</em>
+          <em>(<%= @minimum_password_length %>文字以上で入力してください)</em>
         <% end %><br /></div>
         <%= f.password_field :password, autocomplete: "off" %>
       
