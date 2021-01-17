@@ -1,6 +1,6 @@
 <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
 <div class="arm-top-gaiyou">
-  <div class="arm-gaiyou-name">腹筋報告一覧</div>
+  <div class="arm-gaiyou-name">腹筋報告一覧<% @nickname %></div>
 </div>
     <main class="main">
       <div class="arm-inner">
@@ -10,7 +10,7 @@
           <div class="arm-card">
           <%= image_tag post.image, class: "arm-card__img" if post.image.attached? %>
             <div class="card__body">
-              <h2 class="card__title">投稿者：<%= @post.user.nickname %></h2>
+              <h2 class="card__title">投稿者：<%= post.user.nickname %></h2>
               <p class="card__summary">
               <p>鍛えた部位：<%= post.category.name %></p>
               <p>一言：<%= post.message %></p>
