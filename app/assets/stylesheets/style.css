@@ -14,7 +14,7 @@
   }
   .logo {
     width: 210px;
-    margin-right: 450px;
+    margin-right: 380px;
   }
   .menu {
     display: flex;
@@ -24,9 +24,10 @@
     margin-left: 30px;
   }
   .menu-item-link {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight:900;
     color: #000000;
+    text-decoration: none;
   }
   .menu-item-link.menu-item-link-btn {
     color: #fff;
@@ -254,4 +255,99 @@
     object-fit: cover;
     width: 700px;
     height: 200px;
+}
+
+header.header .user_nav {
+  position: relative;
+  height: 10px;
+  right: 0;
+}
+
+header.header .user_nav span {
+  top: 5px;
+  margin-left: 0px;
+  float: left;
+  width: 175px;
+  height: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header.header .user_nav span:hover ul {
+  color: #57C3E9;
+  display: block;
+}
+
+header.header .user_nav ul {
+  display: none;
+  position: absolute;
+  top: 46px;
+  right: 0;
+}
+
+header.header .user_nav ul li {
+  background-color: white;
+}
+
+header.header .user_nav ul li a {
+  display: block;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+header.header .user_nav2 span {
+  top: 5px;
+  margin-left: 0px;
+  float: left;
+  width: 0px;
+  height: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+header.header .user_nav2 {
+  position: relative;
+  height: 10px;
+  right: 0;
+}
+
+header.header .user_nav2 span {
+  top: 5px;
+  margin-left: 0px;
+  float: left;
+  width: 140px;
+  cursor: pointer;
+}
+
+.mypage-link {
+  color: gray;
+  display: block;
+  text-decoration: none;
+
+}
+
+header.header .user_nav2 ul {
+  display: none;
+  position: absolute;
+  top: 46px;
+  right: 0;
+}
+
+header.header .user_nav2 ul li {
+  background-color: white;
+}
+
+header.header .user_nav2 ul li a {
+  display: block;
+  padding: 40px 40px;
+  text-align: left;
+}
+
+.mypage-name{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  border-bottom: 3px solid black;
+  width: 500px;
+  font-weight: bold;
+  margin: auto;
 }

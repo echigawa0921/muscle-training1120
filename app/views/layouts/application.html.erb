@@ -27,8 +27,21 @@
     <ul class="menu">
       <li class="menu-item"><a href="/contact/:id" class="menu-item-link">愛好会概要</a></li>
       <li class="menu-item"><a href="/posts/list" class="menu-item-link">投稿一覧</a></li>
-      <li class="menu-item"><a href="https://div-inc.slack.com/archives/CHYFPGM8B" class="menu-item-link">公式Slack</a></li>
       <li class="menu-item"><a href="/contact" class="menu-item-link">お問い合わせ</a></li>
+
+      <% if user_signed_in? %>
+      <div class="user_nav grid-6">
+        <span><li class="menu-item"><%= current_user.nickname %>
+          <ul class="user__info">
+              <li class="menu-item"><%= link_to "マイページ", "/users/#{current_user.id}" ,class: "mypage-link" %></li>
+              <li class="menu-item"><%= link_to "ログアウト", destroy_user_session_path,  method: :delete,class: "menu-item-link" %></li>
+          </ul>
+        </span>
+       </div>
+      <% else %>
+        <li class="menu-item"><%= link_to "ログイン", new_user_session_path, class: "menu-item-link" %></li>
+        <li class="menu-item"><%= link_to "会員登録", new_user_registration_path, class: "menu-item-link" %></li>
+      <% end %>
       <li class="menu-item">
         <a class="menu-item-link menu-item-link-btn" href="/posts/new">成果報告</a>
       </li>

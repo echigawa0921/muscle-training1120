@@ -1,0 +1,33 @@
+<div class="top-gaiyou">
+  <div class="gaiyou-name">会員登録</div>
+</div>
+
+<div class="contents row">
+  <div class="container">
+    <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="front-text"><%= f.label :名前 %> <em>(6文字以内)</em><br /></div>
+        <%= f.text_field :nickname, autofocus: true, maxlength: "6" %>
+
+      <div class="front-text"><%= f.label :メールアドレス %><br /></div>
+        <%= f.email_field :email %>
+
+      <div class="front-text">
+        <%= f.label :パスワード %>
+        <% if @minimum_password_length %>
+          <em>(<%= @minimum_password_length %> 6文字以上で入力してください)</em>
+        <% end %><br /></div>
+        <%= f.password_field :password, autocomplete: "off" %>
+      
+
+      <div class="front-text">
+        <%= f.label :パスワード（再確認） %><br /></div>
+        <%= f.password_field :password_confirmation, autocomplete: "off" %>
+
+      <div class="actions">
+        <%= f.submit "Sign up" %>
+      </div>
+    <% end %>
+  </div>
+</div>
