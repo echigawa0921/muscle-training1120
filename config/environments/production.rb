@@ -4,9 +4,6 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
-  ActionCable.server.config.disable_request_forgery_protection = true
-  config.action_cable.url = "wss://muscle-app0921.herokuapp.com/cable" 
-  config.action_cable.allowed_request_origins = ['https://muscle-app0921.herokuapp.com', 'http://muscle-app0921.herokuapp.com']
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
