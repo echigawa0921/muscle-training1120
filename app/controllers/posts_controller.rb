@@ -37,7 +37,7 @@ class PostsController < ApplicationController
 
     def show
       @post = Post.find(params[:id])
-      @nickname = current_user.nickname
+      @nickname = user.nickname
       @posts = current_user.posts
       @comment = Comment.new
       @comments = @post.comments.includes(:user)
