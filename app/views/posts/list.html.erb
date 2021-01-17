@@ -1,7 +1,7 @@
 <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
 <body>
 <div class="top-gaiyou">
-  <div class="gaiyou-name">報告一覧</div>
+  <div class="gaiyou-name">報告一覧<% @nickname %></div>
 </div>
 <%= form_with(url: search_posts_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-input" %>
@@ -16,9 +16,7 @@
           <div class="arm-card">
           <%= image_tag post.image, class: "arm-card__img" if post.image.attached? %>
             <div class="card__body">
-            <a href="/users/<%= @post.user.id %>">
               <h2 class="show-card__title">投稿者：<%= post.user.nickname %></h2>
-              </a>
               <p class="card__summary">
               <p>鍛えた部位：<%= post.category.name %></p>
               <p>一言：<%= post.message %></p>
