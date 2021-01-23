@@ -147,14 +147,14 @@
      }
      .first-view {
         max-width: 100%;
-        height: auto;
+        height: 650px;
         background: url(images/BO151030535008_TP_V.jpg) fixed;
         width: auto;
         background-position: center;
         background-color:black;
       }
      .first-view-textarea {
-        padding: 170px 20px;
+        padding: 180px 20px;
       }
       .catchcopy {
         color: #fff;
@@ -162,7 +162,7 @@
         line-height: 1.2;
         letter-spacing: -3.2px;
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-        margin-bottom: 15px;
+        margin-bottom: 30px;
       }
       .upper-contents{
         height: 620px;
@@ -333,11 +333,12 @@
     }
     .kobayashi-btn-icon{
         border-radius: 120px;
-        height: 380px;
+        height: 350px;
     }
     .image-daihyou{
         height: 390px;
-        width: 95vw;
+        width: 100vw;
+        padding: 10px;
       }
     .yokuwakaran{
        font-size: 15px;
@@ -444,8 +445,113 @@
     font-size: 18px;
   }
   .contact{
-      width: 400px;
+      width: 0px;
       height: 1000px;
-      margin-left: 50px;
+      margin-left: 0px;
+  }
+  
+
+  .show-top-gaiyou{
+    width: auto;
+    padding-top: 125px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 3px  gray;
+  }
+  .show-gaiyou-name{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid black;
+    width: 200px;
+    font-weight: bold;
+    margin: auto;
+  }
+.inner {
+    padding-top: 50px;
+    width: 340px;
+    height: auto;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    background-color: white;
+   }
+   .card__title{
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+   }
+   .show-card {
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 340px;
+    height: 550px;
+   }
+   .show-card__img {
+    padding-left: 20px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 100%;
+   }
+   .show-card__body{
+      width: 300px;
+      height: 0px;
+      margin-left: 20px;
+   }
+   .show-card__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+   }
+   .show-card__summary {
+    font-size: 18px;
+   }
+   .show-li{
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+   }
+   .edit-link-btn{
+    color: #fff;
+    background-color: #ef2728;
+    border-radius: 24px;
+    padding: 17px 25px;
+    font-size: 15px;
+   }
+   .delete-link-btn{
+    color: #fff;
+    background-color: gray;
+    border-radius: 24px;
+    padding: 15px 33px;
+    font-size: 15px;
+    margin-left: 20px;
+   }
+   .comment-form{
+     margin-top: 50px;
+     margin-left: 30px;
+   }
+   .comments{
+    margin-left: 20px;
+    margin-bottom: 100px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .search-form{
+    display: flex;
+    width: 350px;
+    height: 75px;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .search-btn{
+    background-color: gray;
+    width: 150px;
+    margin-left: 0px;
+  }
+  .search-input{
+    margin-left: 20px;
+  }
+  .menu-item {
+    color: white;
   }
   }
