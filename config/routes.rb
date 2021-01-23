@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get "/posts/show"
 
+  post '/posts/guest_sign_in', to: 'posts#new_guest'
+
   resources :contact do
   end
   resources :users, only: :show
@@ -17,6 +19,6 @@ Rails.application.routes.draw do
       collection do
         get 'search'
       end
-    end
+  end
 end
 

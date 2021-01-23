@@ -7,14 +7,25 @@
       <div class="front-text">
         <%= f.label :メールアドレス %><br /></div>
         <%= f.email_field :email, autofocus: true %>
-
       <div class="front-text">
         <%= f.label :パスワード %><br /></div>
         <%= f.password_field :password, autocomplete: "off" %>
-
       <div class="actions">
-        <%= f.submit "Log in" %>
+        <%= f.submit "ログイン" %>
       </div>
-    <% end %>
+      <div class="guest-box">
+      <div class="guest-line">
+       <%= form_with model: @user, url: user_session_path, class: 'new_user', local: true do |f| %>
+         <%= f.hidden_field :email, value: 'guest@example.com' %><br /></div>
+         <%= f.hidden_field :password, value: 'password' %><br /></div
+         <div class="guest-actions">
+           <%= f.submit 'ゲストログイン'%>
+          </div>
+       <% end %> 
+     </div>
+      <% end %>
+
+      </div>
+
   </div>
 </div>

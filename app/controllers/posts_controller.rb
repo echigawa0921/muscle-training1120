@@ -60,8 +60,7 @@ class PostsController < ApplicationController
       post = Post.find(params[:id])
       post.destroy
     end
-  
-  
+    
     private
     def post_params
       params.require(:post).permit(:category_id, :message, :image).merge(user_id: current_user.id)
