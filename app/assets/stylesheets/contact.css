@@ -1,5 +1,5 @@
 .contenter{
-    background: url(images/strong-man-training-gym.jpg) fixed;
+    background-image: image-url("images/strong-man-training-gym.jpg");
     background-position: center;
     width: 100vw;
 }
