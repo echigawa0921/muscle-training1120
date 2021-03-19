@@ -37,10 +37,20 @@
   }
   
   .first-view {
-    background-image:url("./images/BO151030535008_TP_V.jpg");
     background-size: cover;
     background-position: center;
     height: 800px;
+  }
+  .first-view ul{
+    position: relative;
+  }
+  .first-view p{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    background: rgba(239, 65, 35, 0.7);
+    padding: 5px;
+    width: 100%;
   }
   .first-view-textarea {
     padding: 320px 60px;
