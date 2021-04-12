@@ -19,12 +19,12 @@
 
 <img width="800" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281785-8cf06c00-3814-11eb-8115-62c8a49efb7c.png">  
   
-  鍛えた部位ごとのビューファイル表示
+  鍛えた部位ごとのビューファイル表示  
   whereメソッドを使って条件式に合うビューファイルのみの表示
 # こだわりポイント②（GAS連携）
- 
-問合せページとSlack連携  
-<img width="800" alt="Slack___echigawa_yuki___div" src="https://user-images.githubusercontent.com/69971834/101281871-08eab400-3815-11eb-89ed-4a2e6dd89cdf.png">
+<img width="800" alt="Slack___echigawa_yuki___div" src="https://user-images.githubusercontent.com/69971834/101281871-08eab400-3815-11eb-89ed-4a2e6dd89cdf.png">  
+  
+  問合せページとSlack連携  
 
 
 # 環境
