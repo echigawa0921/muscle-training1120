@@ -16,9 +16,10 @@
 
 # こだわりポイント①（whereメソッド）
  
-鍛えた部位ごとのビューファイル表示
+
 <img width="800" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281785-8cf06c00-3814-11eb-8115-62c8a49efb7c.png">  
   
+  鍛えた部位ごとのビューファイル表示
   whereメソッドを使って条件式に合うビューファイルのみの表示
 # こだわりポイント②（GAS連携）
  
