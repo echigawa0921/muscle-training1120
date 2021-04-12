@@ -10,8 +10,8 @@
  
 # トップページ
 
- <img width="800" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281574-1010c280-3813-11eb-9e73-4966389af32f.png">
- <img width="800" alt="スクリーンショット 2021-04-12 22 30 04" src="https://user-images.githubusercontent.com/69971834/114402324-ab111300-9bde-11eb-8f87-8ef975ade3f3.png">
+ <img width="400" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281574-1010c280-3813-11eb-9e73-4966389af32f.png">
+ <img width="400" alt="スクリーンショット 2021-04-12 22 30 04" src="https://user-images.githubusercontent.com/69971834/114402324-ab111300-9bde-11eb-8f87-8ef975ade3f3.png">
 
 # こだわりポイント①（whereメソッド）
  
