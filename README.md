@@ -1,16 +1,16 @@
 # README
-# 筋トレ愛好会HP（Muscle　Training）
+# 筋トレ愛好会HP（Muscle Training）
  
 このHPは社内部活「筋トレ愛好会」を活性化させるための投稿アプリとなります。
  
 # 作った経緯
- Slackのみの投稿ではなく、該当アプリと連携することで投稿しやすくする
- "見る専"の人の投稿する機会を作る
- 部活内活動の活発化  
+上長が社内部活「筋トレ愛好会」部長で、学習を進めていると話した所Slackでの投稿だけでなく、  
+部活が活発化するツールを作って欲しいと依頼を受け作成。  
+複数回の修正と要望を取り入れ完成しました。  
  
 # トップページ
 
- <img width="1438" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281574-1010c280-3813-11eb-9e73-4966389af32f.png">
+ <img width="850" alt="MuscleTraining1120-2" src="https://user-images.githubusercontent.com/69971834/101281574-1010c280-3813-11eb-9e73-4966389af32f.png">
  
 # こだわりポイント①（whereメソッド）
  
@@ -24,32 +24,16 @@ whereメソッドを使って条件式に合うビューファイルのみの表
 <img width="945" alt="Slack___echigawa_yuki___div" src="https://user-images.githubusercontent.com/69971834/101281871-08eab400-3815-11eb-89ed-4a2e6dd89cdf.png">
 
 
-# 注意書き
- 
-
+# 環境
+ruby 2.6.5  
+Ruby on rails 6.0.0  
+mysql2 0.4.4  
+unicorn 5.4.1  
+GAS Googleフォーム
+Slack
  
 # Author
  
 作成情報
  
-* 越川雄貴
-* キャリアサポートグループ
-* yuki.echigawa@di-v.co.jp
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* yuki.Echigawa
